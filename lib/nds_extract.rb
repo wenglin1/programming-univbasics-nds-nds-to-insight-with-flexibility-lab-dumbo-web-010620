@@ -51,7 +51,7 @@ def movies_with_director_key(name, movies_collection)
   movies = []
   count = 0
   while count < movies.count do
-    movies.push(movie_with_director_name(name,movies_collection))
+    movies.push(movie_with_director_name(name,movies_collection[count]))
     count += 1
   end
   movies
