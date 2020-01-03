@@ -81,7 +81,6 @@ def gross_per_studio(collection)
       result[studio_name] += studio_gross
     end
     i += 1
-
   end
 end
 
